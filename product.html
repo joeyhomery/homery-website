@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page - Homery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .product-container {
+            display: flex;
+            padding: 20px;
+        }
+        .product-image {
+            flex: 1;
+            padding: 20px;
+        }
+        .product-details {
+            flex: 2;
+            padding: 20px;
+        }
+        .product-details h2 {
+            margin-top: 0;
+        }
+        .add-to-cart {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="product-container">
+        <div class="product-image">
+            <img src="https://via.placeholder.com/400x400" alt="Product Image">
+        </div>
+        <div class="product-details">
+            <h2>Product Name</h2>
+            <p>Product description goes here. This is where you can provide details about the product, its features, and benefits.</p>
+            <p><strong>Price:</strong> $299.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+</body>
+</html>
