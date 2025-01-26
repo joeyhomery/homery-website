@@ -4,9 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .hero {
+            background-image: url('https://via.placeholder.com/1200x300');
+            background-size: cover;
+            background-position: center;
+            padding: 100px 0;
+            text-align: center;
+            color: white;
+        }
+        .featured-products {
+            padding: 20px;
+            text-align: center;
+        }
+        .product-card {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 200px;
+        }
+        .product-card img {
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to Homery</h1>
-    <p>Your one-stop shop for home appliances.</p>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="hero">
+        <h1>Welcome to Homery</h1>
+        <p>Your one-stop shop for home appliances.</p>
+    </div>
+    <div class="featured-products">
+        <h2>Featured Products</h2>
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200x200" alt="Product 1">
+            <h3>Product 1</h3>
+            <p>$199.99</p>
+        </div>
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200x200" alt="Product 2">
+            <h3>Product 2</h3>
+            <p>$299.99</p>
+        </div>
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200x200" alt="Product 3">
+            <h3>Product 3</h3>
+            <p>$399.99</p>
+        </div>
+    </div>
 </body>
 </html>
